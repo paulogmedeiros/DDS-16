@@ -1,0 +1,66 @@
+*{  
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.body{
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.cabecalho{
+    background-color: #26a9e1;
+    color: white;
+    font-size: 48px;
+    padding: 10px 100px;
+    border-radius: 8px;
+}
+
+.saudacao{
+    display: inline-block;
+    width: 90%;
+}
+
+.relogio{
+    display: inline-block;
+    width: 10%;
+}
+
+thead tr th{
+    background-color: #006bb4;
+    color: white;
+}
+
+.aulas{
+    display: inline-block;
+    width: 80%;
+    vertical-align: top;
+}
+
+.lateral{
+    display: inline-block;
+    width: 10%;
+}
+
+table{
+    width: 100%;
+    border: none;
+}
+
+table tr:nth-child(even){
+    background-color: #26a9e1;
+    color: white;
+}
+
+/* td,th{
+    padding: 4%;
+} */
+
+.imagem{
+    margin-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+img{
+    max-width: 100%;
+}

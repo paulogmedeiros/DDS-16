@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Aulas</title>
+</head>
+<body>
+    <div id="formulario">
+        <h1>Cadastro de aulas</h1>
+        <form action="/aulas" method="post"  enctype="multipart/form-data">
+            <label for="">Data:</label><br>
+            <input type="date" name="data"><br>
+            <label for="">Hora de inicio:</label><br>
+            <input type="time" name="horaInicio"><br>
+            <label for="">Hora do termino:</label><br>
+            <input type="time" name="horaTermino"><br>
+            <label for="">Turma:</label><br>
+            <input type="text" name="turma"><br>
+            <label for="">Instrutor:</label><br>
+            <input type="text" name="instrutor"><br>
+            <label for="">Unidade curricular</label><br>
+            <input type="text" name="unidadeCurricular"><br>
+            <label for="">Ambiente:</label><br>
+            <input type="text" name="ambiente"><br>
+            <label for="">Tipo:</label><br>
+            <input type="number" name="tipo"><br>
+            <label for="">Turno:</label><br>
+            <input type="number" name="turno"><br>
+            <label for="">Código do Instrutor:</label><br>
+            <input type="number" name="codigoInstrutor"><br>
+            <label for="">Chave entregue:</label><br>
+            <input type="checkbox" name="chaveEntregue"><br>
+            <input type="submit" value="Cadastrar">
+        </form>
+    </div>
+</body>
+</html>

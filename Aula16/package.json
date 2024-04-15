@@ -1,0 +1,17 @@
+{
+  "name": "Aula14",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.3",
+    "express-fileupload": "^1.5.0",
+    "mysql2": "^3.9.2"
+  },
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

@@ -1,0 +1,52 @@
+*{  
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.body{
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.cabecalho{
+    background-color: #26a9e1;
+    color: white;
+    font-size: 48px;
+    padding: 10px 100px;
+    border-radius: 8px;
+}
+
+.saudacao{
+    display: inline-block;
+    width: 90%;
+}
+
+.relogio{
+    display: inline-block;
+    width: 10%;
+}
+
+thead tr th{
+    background-color: #006bb4;
+    color: white;
+}
+
+.aulas{
+    display: inline-block;
+    width: 80%;
+}
+
+.lateral{
+    display: inline-block;
+
+}
+
+table{
+    width: 100%;
+    border: none;
+}
+
+table tr:nth-child(even){
+    background-color: #26a9e1;
+    color: white;
+}

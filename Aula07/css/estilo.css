@@ -1,0 +1,27 @@
+.primeiraDiv{
+    border: 5px solid red;
+    background: blue;
+    height: 200px;
+    width: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    /* margin: 100px 50px 80px 20px; */
+    /* margin: auto; */
+    margin: 20px ;
+    padding: 0 50px;
+
+}
+
+.primeiraDiv:hover{
+height: 200px;
+width: 1000px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background: yellow;
+}
+
+.terceira{
+    height: 1000px;
+    width: 2000px;
+    background-image: url(../img/burro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}

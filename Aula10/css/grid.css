@@ -1,0 +1,8 @@
+.gradeado{
+    background-color: aqua;
+    display: grid;
+    /* grid-template-columns: 1fr 2fr 3fr;  fr significa a fração*/
+    /* grid-template-columns: 30% 30% 30%; */
+    grid-template-columns: 200px 200px 200px;
+    
+}

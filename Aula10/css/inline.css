@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.linha{
+    background-color: blueviolet;
+}
+
+.linhaItem{
+    width: 33.33%;
+    height: 150px;
+    display: inline-block;
+}
+
+.linhaItem1{
+    background-color: aqua;
+}
+
+.linhaItem2{
+    background-color: beige ;
+}
+
+.linhaItem3{
+    background-color: gold ;
+}
